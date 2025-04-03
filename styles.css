@@ -1,0 +1,54 @@
+.header {       /*titulo de la pagina*/
+    display: block;     /*fijo el titulo*/
+    text-align: center;     /*centrer texto*/
+    background-color: white;
+    padding: 5px 0;
+}
+body{
+    background-color: lightgrey;        /*color de fondo*/
+    margin: 0;
+    padding: 0;
+}
+.post{      /*todas las publicaciones*/
+    display: flex;
+    flex-direction: column;     /*en columna*/
+    justify-content: center;     /*centrar*/
+    text-align: center;     /*centradas*/
+    margin: 10px auto;     /*margen entre publicaciones*/
+    width: 600px;   /*ancho de cada publicacion*/
+    padding: 30px;    /*espacio entre publicaciones*/
+}
+.post-content {   /*cada publicacion*/
+    display: inline-block;      /*en linea*/
+    margin: 10px;     /*margen entre publicaciones*/
+    background-color: white;    /*color de fondo*/
+    border: none;    /*borde*/
+}
+.post-title {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.post-title h2{
+    font-size: 20px;
+}
+.post-title p{
+    color: grey;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.post-image img {   /*imagen de cada publicacion*/
+    width: 100%;
+    height: auto;
+}
+.post-image p{
+    margin: 20px;
+    text-align: left;
+}
+.post-image p .BreatheCode{
+    font-weight: bold;
+}
